@@ -1,0 +1,126 @@
+*{
+	user-select: none;
+}
+.main{
+	width: 100%;
+	height: 700px;
+}
+.small{
+	height: 10%;
+	width: 100%;
+	position: relative;
+	border-bottom: 2px solid gray;
+}
+.small .above{
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	margin: 0px 135px;
+}
+.small .above .left{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+.small .above .right{
+	float: right;
+	width: 80%;		
+	height: 100%;
+}
+.right ul li{
+	float: left;
+	margin-left: 25px;
+	list-style: none;
+	text-transform: uppercase; 
+	transition: linear 0.5s;
+}
+.right ul li:hover{
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+}
+.right ul .home{
+	border-left: 1px solid #f73333; 
+	border-right: 1px solid #f73333;
+	padding: 0px 6px;
+	color: #f73333;
+}
+.right button{
+	margin-left: 20px;
+	background-color: #ca983e;
+	color: white;
+	text-transform: uppercase;
+	padding: 8px;
+	border: none;
+	margin-top: -5px;
+	transition: linear 0.5s;
+
+}
+.right button:hover{
+	cursor: pointer;
+	background-color: orange;
+	color: white;
+	border-radius: 10px;
+	outline: none;
+}
+
+
+.big{
+	padding: 0;
+	height: 90%;
+	position: relative;
+	background-image: url(../image/3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.text{
+	position: absolute;
+    margin-left: 120px;
+    margin-top: 220px;
+}
+.text h1{
+	font-size: 3em;
+}
+.text p{
+	margin-top: -8px;
+}
+.big .text button{
+	background-color: white;	
+	color: gray;
+	text-transform: uppercase;
+	height: 35px;
+	width: 130px;
+	border: 1px solid gray;
+	margin-top: 25px;
+	transition: linear 0.5s;
+}
+.big .text button:hover{
+	background-color: gray;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+
+.icons{
+	position: absolute;
+	top: 150px;
+	width: 35px;
+	height: 35px;
+	background-color: #afacac;
+	cursor: pointer;
+	transition: linear 0.5s;
+
+
+}
+.icons:hover{
+	background-color: gray;
+	border-radius: 50px; 
+}
+
+.icons i{
+	margin:9px 9px;
+}
